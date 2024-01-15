@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
-echo "pre commmit-------------------------------------------------"
+echo "pre commmit---------------------------helllooooooo ----------------------"
 pnpm lint-staged
 # pnpm run lintPython
