@@ -116,3 +116,10 @@ Chainlit is open-source and licensed under the [Apache 2.0](LICENSE) license.
 MMMMMM
 guide :
 https://github.com/Chainlit/chainlit/blob/main/.github/CONTRIBUTING.md
+
+cd backend
+poetry install --with tests --with mypy
+
+cd backend
+poetry shell
+chainlit run chainlit/hello.py
