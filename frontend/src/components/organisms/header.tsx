@@ -32,7 +32,12 @@ interface INavItem {
 
 function ActiveNavItem({ to, label }: INavItem) {
   return (
-    <RegularButton component={Link} to={to} key={to}>
+    <RegularButton
+      component={Link}
+      to={to}
+      key={to}
+      sx={{ background: (theme) => theme.palette.background.default }}
+    >
       {label}
     </RegularButton>
   );
