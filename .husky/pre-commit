@@ -3,3 +3,4 @@
 echo "__________________________husky is running __________________"
 pnpm lint-staged
 pnpm run lintPython
+npm test
