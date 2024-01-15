@@ -5,7 +5,9 @@ import { settingsState } from 'state/settings';
 
 export default function Hotkeys() {
   const setSettings = useSetRecoilState(settingsState);
-  useHotkeys('s', () => setSettings((old) => ({ ...old, open: !old.open })));
+  useHotkeys('shift+s', () =>
+    setSettings((old) => ({ ...old, open: !old.open }))
+  );
 
   return null;
 }

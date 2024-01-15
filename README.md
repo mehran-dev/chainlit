@@ -112,3 +112,7 @@ For detailed information on how to contribute, see [here](.github/CONTRIBUTING.m
 ## 📃 License
 
 Chainlit is open-source and licensed under the [Apache 2.0](LICENSE) license.
+
+MMMMMM
+guide :
+https://github.com/Chainlit/chainlit/blob/main/.github/CONTRIBUTING.md
