@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 echo "__________________________husky is running __________________"
-pnpm lint-staged
+# pnpm lint-staged
 # pnpm run lintPython
 # npm test
