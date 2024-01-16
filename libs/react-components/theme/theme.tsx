@@ -3,7 +3,7 @@ import createTheme from '@mui/material/styles/createTheme';
 import { green, grey, primary, white } from './palette';
 
 const typography = {
-  fontFamily: ['Inter', 'sans-serif'].join(',')
+  fontFamily: `${['number', 'roboto', 'yekanBakh'].join(',')} !important`
 };
 
 const components = {
