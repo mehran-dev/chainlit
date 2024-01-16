@@ -1,10 +1,86 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'number','roboto','yekanBakh' !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@font-face {
+  font-family: roboto;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../public/assets/fonts/roboto-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../public/assets/fonts/Roboto-Medium.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: number;
+  src: url("../public/assets/fonts/YekanBakhFaNum-Regular.woff2") format("woff2");
+  unicode-range: U+30-39;
+}
+
+@font-face {
+  font-family: yekanBakh;
+  font-style: normal;
+  font-weight: 100;
+  src: url("../public/assets/fonts/YekanBakhFaNum-Thin.woff2") format("woff2");
+}
+@font-face {
+  font-family: yekanBakh;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../public/assets/fonts/YekanBakhFaNum-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: yekanBakh;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../public/assets/fonts/YekanBakhFaNum-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: yekanBakh;
+  font-style: normal;
+  font-weight: 600;
+  src: url("../public/assets/fonts/YekanBakhFaNum-SemiBold.woff2") format("woff2");
+}
+@font-face {
+  font-family: yekanBakh;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../public/assets/fonts/YekanBakhFaNum-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: yekanBakh;
+  font-style: normal;
+  font-weight: 800;
+  src: url("../public/assets/fonts/YekanBakhFaNum-ExtraBlack.woff2") format("woff2");
+}
+@font-face {
+  font-family: yekanBakh;
+  font-style: normal;
+  font-weight: 900;
+  src: url("../public/assets/fonts/YekanBakhFaNum-Black.woff2") format("woff2");
+}
+@font-face {
+  font-family: yekanBakh;
+  font-style: normal;
+  font-weight: 950;
+  src: url("../public/assets/fonts/YekanBakhFaNum-ExtraBlack.woff2") format("woff2");
+}
+
+/* html{
+  /* :lang(fa){ */
+    /* font-family: 'yekanBakh sans-serif'!important; */
+  /* } */
+/* } */ */
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

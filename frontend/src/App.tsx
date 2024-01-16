@@ -113,7 +113,6 @@ function App() {
         position="top-right"
         toastOptions={{
           style: {
-            fontFamily: 'Inter',
             background: theme.palette.background.paper,
             border: `1px solid ${theme.palette.divider}`,
             color: theme.palette.text.primary

@@ -28,8 +28,6 @@ const WelcomeScreen = memo(
             color: 'text.primary',
             lineHeight: '25px',
             fontSize: '1rem',
-            fontFamily:
-              '-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji',
             display: 'flex',
             flexDirection: 'column'
           }}
